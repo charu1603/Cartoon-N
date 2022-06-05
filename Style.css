@@ -1,0 +1,398 @@
+*
+{
+   
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    width: 100%;
+    height: 100px;
+  }
+
+ .logo img{
+     float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     
+ }
+
+  .nav {
+      float: right;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+ 
+     
+  }       
+ nav ul li{
+     display: inline-block;
+     padding: 20px;
+     font-size: 15px;
+    margin-top: 70px;
+   
+
+ }
+ nav ul li a{
+     text-decoration: none;
+     font-weight: lighter;
+     color: black;
+ }
+ nav ul li a:hover{
+    border-bottom: rgb(117, 153, 224) 5px solid;
+
+ }
+.section1{
+ 
+        display: flex;
+       
+        background-color: rgb(0, 0, 0);
+        justify-content: flex-start;
+        padding: 30px;
+        width: 100%;
+         flex-direction: column;
+}
+
+.title{
+   
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}  
+
+.photos{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.photos:hover{
+
+    box-shadow: whitesmoke;
+
+}
+
+    
+
+.cd{
+    font-size: 14px;
+    font-weight:normal;
+}
+.ben10{
+    width: 380px;
+    padding: 15px;
+    margin: 7px;
+    height: 300px;
+    background: url('ben10.jpg') no-repeat;
+    background-size: cover;
+  
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.hero{
+    width: 380px;
+    padding: 15px;
+    margin: 7px;
+    height: 300px;
+    background: url('hero.jpg') no-repeat;
+    background-size: cover;
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stevan{
+    width: 380px;
+    padding: 15px;
+    margin: 7px;
+    height: 300px;
+     background: url('stevan.jpg') no-repeat;
+    background-size: cover;
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+
+.bear{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+    background: url('bear.jpg') no-repeat;
+    background-size: cover;
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.girls{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+ 
+    background: url('girls.jpg') no-repeat;
+    background-size: cover;
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+
+
+.show{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+ 
+    background: url('show.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.time{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+     background: url('time.jpg') no-repeat;
+    background-size: cover;
+    box-shadow: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+.apple{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+    background: url('apple.jpg') no-repeat;
+    background-size: cover;
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.AWOG{
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    height: 250px;
+    background: url('AWOG.jpg') no-repeat;
+    background-size: cover;
+ 
+     color: white;
+     display: flex;
+ flex-direction: row;
+    justify-content:left;
+ align-items:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.title1{
+   
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+      font-weight: bold;
+} 
+
+p{
+    margin: 0;
+    padding: 18px 18px 18px 8px;
+   color: whitesmoke;
+word-spacing: 1px;
+}
+
+
+.section3 {
+    display: flex;
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 20px 15px 20px;
+   
+    justify-content: center;
+    
+}
+.section3 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    font-size: 16px;
+   
+    height: auto;
+    
+}
+  
+
+    
+
+.section3 ul li {
+
+ 
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        justify-content: space-evenly;
+       
+
+    }
+    .section3 ul li:hover{
+   color: rgb(117, 153, 224) ;
+
+
+    }
+    .copyright{
+        color: rgb(147, 140, 140);
+        font-size: 14px;
+       margin: 10px auto 25px auto;
+    }
+   .co{
+      background-color: rgb(0,0,0)
+}
+.co1{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 215, 215);
+    
+
+}
+.co1 img{
+    margin: 15px;
+    height: 25px;
+
+}
+
+.co2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.end{
+background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px 30px 40px;
+    width: auto;
+}
+
+.end img{
+   opacity: 0.5;  
+  height: 50px;
+    margin: 30px;
+  width: 90px;
+
+}
+
+.end img:hover{
+    opacity: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
